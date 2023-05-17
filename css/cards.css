@@ -16,6 +16,11 @@ li {
     text-indent: 0;
 }
 
+.proj-link:any-link {
+    text-decoration: none;
+    color: white !important;
+}
+
 p {
     font-size: 16px;
     margin: 2px 2px 2px 2px;
@@ -99,7 +104,6 @@ a:visited {
 .card-list::-webkit-scrollbar-track {
     background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
 }
-
 
 .card {
     display: flex;
