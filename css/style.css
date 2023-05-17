@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #17141d;
+    color: white;
+    font-family: 'DM Mono', monospace;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li {
+    list-style-position: inside !important;
+    text-align: center !important;
+    list-style-type: none;
+    margin-left: 0;
+    text-indent: 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red !important;
+    font-size: 20px;
+}
+
+a:visited {
+    color: blue;
+}
+
+.topnav {
+    background-color: rgb(233, 230, 230);
+    overflow: hidden;
+    margin: -8px;
+    text-align: center;
+}
+
+.topnav a {
+    display: inline-block;
+    color: #050505;
+    text-align: center;
+    padding: 22px 33px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Verdana, sans-serif';
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: red;
+}
+
+.topnav a.active {
+    background-color: #92d6be;
+    color: white;
+}
+
+.topnav #home:hover {
+    border: 2px solid black;
+}
+
+.topnav #contact:hover {
+    border: 2px solid black;
+}
+
+.topnav #projects:hover {
+    border: 2px solid black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+#about {
+    box-shadow: 3px 3px 3px 0px #ffffff, -3px -3px 3px 0px #ffffff;
+    display: block;
+    margin: 1em;
+    padding: 1em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+}
+
+#passions {
+    box-shadow: 3px 3px 3px 0px #ffffff, -3px -3px 3px 0px #ffffff;
+    grid-column: 1 / 2; /* first column*/
+    margin: 1em;
+    padding: 1em;
+}
+  
+#skills {
+    box-shadow: 3px 3px 3px 0px #ffffff, -3px -3px 3px 0px #ffffff;
+    grid-column: 2 / 3; /* second column*/
+    margin: 1em;
+    padding: 1em;
+}
+
+#contactme {
+    box-shadow: 3px 3px 3px 0px #ffffff, -3px -3px 3px 0px #ffffff;
+    display: block;
+    margin: 1em;
+    padding: 1em;
+}
+
+form {
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 3px 3px 3px 0px #ffffff, -3px -3px 3px 0px #ffffff;
+}
+  
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+  
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+  
+textarea {
+    resize: none;
+    height: 100px;
+}
+  
+input[type="submit"] {
+    background-color: #4CAF50;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1.0 ;
+}
+
+@media screen and (max-width:320px) {
+    /* CSS for screens that are 320 pixels or less will be put in this section */
+}
+
+@media screen and (min-width:320px) and (max-width:640px) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+}
+
+footer {
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    font-size: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f9f9f9;
+    color: black;
+    font-family: 'Ibarra Real Nova', serif;
+}
