@@ -14,11 +14,31 @@
 
 <body>
     <header>
-        <div class="topnav">
-            <a href="about.html" id="home">Home</a>
-            <a href="projects.html" id="projects">Projects</a>
-            <a href="contact.html" id="contact">Contact</a>
-        </div>
+        <button class="mobile-nav-toggle" aria-controls="primary-navbar" aria-expanded="flase">
+            <span class="sr-only"></span>
+        </button>
+        <nav>
+            <ul id="primary-navbar" data-visible="false" class="primary-navbar flex">
+                <li class="logo">
+                    <a href="index.html"><img src="assets/boogle.png" alt="Logo"></a>
+                </li>
+                <li class="active">
+                    <a href="about.html">
+                        <span aria-hidden="true">00</span>Home
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <span aria-hidden="true">01</span>Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <span aria-hidden="true">02</span>Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <br><br>
 
