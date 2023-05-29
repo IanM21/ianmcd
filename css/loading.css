@@ -65,3 +65,16 @@ footer p {
     align-items: center;
     font-size: 30px;
 }
+
+@media (max-width: 768px) {
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    button i {
+      margin: 0;
+    }
+}
+  
