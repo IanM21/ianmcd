@@ -19,3 +19,25 @@ navToggle.addEventListener('click', () => {
     }
     }
 );
+
+// Cards on mobile
+const cardHeaders = document.querySelectorAll('.card-header');
+
+cardHeaders.forEach(cardHeader => {
+  cardHeader.addEventListener('click', () => {
+    const card = cardHeader.parentNode;
+    card.classList.toggle('expanded');
+  });
+});
+
+// Get all the <p> elements within .card-header
+const expandableParagraphs = document.querySelectorAll('.card-header p');
+
+// Attach a click event listener to each expandable paragraph
+expandableParagraphs.forEach((paragraph) => {
+  paragraph.addEventListener('click', function () {
+    // Toggle the display of the next sibling <p> element with the "expandable-content" class
+    const expandableContent = this.nextElementSibling;
+    expandableContent.style.display = (expandableContent.style.display === 'none') ? 'block' : 'none';
+  });
+});

@@ -279,3 +279,21 @@ footer {
     color: black;
     font-family: 'Ibarra Real Nova', serif;
 }
+
+@media (max-width: 768px) {
+    .card {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .card:hover,
+    .card.expanded {
+      transform: none;
+    }
+  
+    .card.expanded .card-content {
+      display: block;
+    }
+}

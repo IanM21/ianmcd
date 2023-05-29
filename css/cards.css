@@ -332,3 +332,14 @@ footer {
     color: black;
     font-family: 'Ibarra Real Nova', serif;
 }
+
+@media (max-width: 768px) {
+    .card p.expandable-content {
+      display: none;
+    }
+    
+    .card-header p {
+      cursor: pointer;
+    }
+}
+  
