@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
 html {
-    background: #17141d;
+    background-image: url("/Users/ianmcdonald/Desktop/Coding/HTML/Portfolio-V2/assets/svg.png");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
+    background-color: black;
     color: whitesmoke;
     font-family: 'DM Mono', monospace;
 }
@@ -34,7 +38,6 @@ button:hover {
   
 a:hover {
     cursor: pointer;
-    
 }
   
 footer a:hover {
