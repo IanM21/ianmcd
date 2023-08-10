@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
 html {
-    background-image: url("/Users/ianmcdonald/Desktop/Coding/HTML/Portfolio-V2/assets/svg.png");
+    background-image: url("/assets/bg-wave.png");
     background-repeat: no-repeat;
     background-size: fill;
     background-position: center;
