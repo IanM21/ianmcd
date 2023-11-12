@@ -9,6 +9,8 @@
     <meta name="description" content="Ian McDonald is a semi-intermediate web developer who is activly enhancing his skills and making websites on a weekly baises.">
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Ian McDonald | Projects</title>
 </head>
 
@@ -42,7 +44,7 @@
     </header>
     <br><br>
 
-    <section class="card-list">
+    <section class="card-list animate__animated animate__fadeInLeft">
         <article class="card">
             <header class="card-header">
                 <h2>
@@ -194,6 +196,41 @@
                     I created the Little Burgandy Account Generator for a friend of mine who was trying to obtain limited edition sneakers.
                     The application is built purely using python and multiple python libraries including requests, which helped me expand my knowledge when working with HTTP requests.
                     This application is yet another CLI program for MacOS and Windows and has remained public since its creation.
+                </p>
+            </header>
+            <div class="card-author">
+                <a class="author-avatar" href="#">
+                    <img src="assets/boogle.png" />
+                </a>
+                <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                </svg>
+        
+                <div class="author-name">
+                    <div class="author-name-prefix">Author</div>
+                        Ian McDonald
+                    </div>
+                </div>
+                
+                <div class="tags">
+                  <a href="#">Python</a>
+                  <a href="#">Requests</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="card">
+            <header class="card-header">
+                <h2>
+                    <a class="proj-link" href="https://github.com/IanM21/GoTransit" 
+                    target="_blank">Go Transit Schedule Viewer</a>
+                </h2>
+                <p>
+                    <br>
+                    The Go Transit Schedule Viewer was a project I created for myself to make it easier and faster to fetch Go Transit schedules for when I want to go home and visit my family and friends. 
+                    The script is written purely in Python and has three modes:<br>1. Custom Directions<br>2. Barrie -> Union Stn<br>3. Union Stn -> Barrie<br> 
+                    The script uses the requests library to fetch the data from the Go Transit website and a CSV file, then parses the data to make it easier to read, 
+                    ultimately displaying it in a table with times converted to 12-hour format instead of military 24-hour format.
                 </p>
             </header>
             <div class="card-author">
